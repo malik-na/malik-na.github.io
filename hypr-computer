@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Short link for the hypr-computer installer: https://github.com/malik-na/hypr-computer
+#   curl -fsSL malik-na.github.io/hypr-computer | bash
+# Options are passed through, e.g.: curl -fsSL malik-na.github.io/hypr-computer | bash -s -- --dry-run
+set -euo pipefail
+curl -fsSL https://raw.githubusercontent.com/malik-na/hypr-computer/main/install.sh | bash -s -- "$@"
