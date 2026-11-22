@@ -1,0 +1,5 @@
+# malik-na.github.io
+
+Short links for my projects.
+
+- `curl -fsSL malik-na.github.io/hc | bash` installs [hypr-computer](https://github.com/malik-na/hypr-computer), computer use for AI agents on Hyprland.
